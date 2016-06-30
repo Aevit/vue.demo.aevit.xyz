@@ -17,7 +17,7 @@ And you will see the demo page (**Please** visit the page on the `Chrome` or `Fi
 
 Part1: [http://aevit.xyz/2016/06/29/vue-in-laravel-1/](http://aevit.xyz/2016/06/29/vue-in-laravel-1/)
 
-Part2: [http://aevit.xyz/2016/06/29/vue-in-laravel-2/](http://aevit.xyz/2016/06/30/vue-in-laravel-2/)
+Part2: [http://aevit.xyz/2016/06/30/vue-in-laravel-2/](http://aevit.xyz/2016/06/30/vue-in-laravel-2/)
 
 
 
