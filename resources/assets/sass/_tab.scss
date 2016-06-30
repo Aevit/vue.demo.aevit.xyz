@@ -1,0 +1,57 @@
+.tab {
+  $mainColor: #c45441;
+  $activeColor: #515151;
+
+  &-container {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  &-nav {
+    color: #b0b0b0;
+    margin: 80px auto 0px;
+    max-width: 400px;
+  }
+  &-main-nav {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    border-bottom: 1px solid $mainColor;
+    display: flex;
+    justify-content: space-between;
+    &-item {
+      display: inline;
+      cursor: pointer;
+      height: 31px;
+      &.active {
+        color: $activeColor;
+        border-bottom: 1px solid $mainColor;
+      }
+    }
+  }
+  &-sub-nav {
+    padding: 0;
+    font-size: 13px;
+    &-item {
+      display: inline;
+      padding: 5px;
+      cursor: pointer;
+      &.active {
+        color: $activeColor;
+        border-bottom: 1px solid $mainColor;
+      }
+    }
+  }
+
+  &-list {
+    margin: 60px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    &-item {
+      margin-left: 10px;
+    }
+  }
+}
